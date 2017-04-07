@@ -3,7 +3,7 @@
 <jsp:useBean id="erroreOutputBS" scope="session" class="autudc.chiamaBS.ErroreOutputBS" />
 
 <%
-	String err = "Errore generico durante la chiamata.";
+	String err = "Errore generico durante la chiamata ******";
 	if (erroreOutputBS != null && !"".equals(erroreOutputBS.getMessaggioErrore())){
 		err = erroreOutputBS.getMessaggioErrore();
 	}
@@ -26,5 +26,6 @@ function sonoQui()
 	<br>
 	 <input class="newbutton" type="button" value="Indietro" name="Indietro" onClick="history.back()">
 </form>	
+<!-- prova commit per git FEDE -->
 </body>
 </html>
