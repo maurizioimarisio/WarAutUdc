@@ -1,0 +1,104 @@
+body {
+	background-color: #EFEFEF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+	color: #000000;
+}
+
+.TitlePage {
+	filter: progid : DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#47A1A8',EndColorStr='#EFEFEF');
+}
+
+INPUT.newbutton_RED {
+	border-top-color: #EE1800;
+	border-left-color: #EE1800;
+	border-right-color: #000000;
+	border-right-color: #000000;
+	background-color: #cec;
+	cursor: hand;
+	font-size: 60%;
+	background-color: #FE561E;
+	filter: progid : DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F4A398',EndColorStr='#EE1800');
+}
+
+INPUT.newbutton_GREEN {
+	border-top-color: #61A505;
+	border-left-color: #61A505;
+	border-right-color: #000000;
+	border-right-color: #000000;
+	background-color: #cec;
+	cursor: hand;
+	font-size: 60%;
+	background-color: #3FE200;
+	filter: progid : DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = '#C7F3BB', EndColorStr ='#61A505');
+}
+
+.header_red {
+	background-color: red;
+	color: #FFFFFF;
+	font-weight: bold;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: Georgia, Times New Roman, Verdana;
+}
+
+.header_green {
+	background-color: green;
+	color: #FFFFFF;
+	font-weight: bold;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: Georgia, Times New Roman, Verdana;
+}
+
+.header_gray {
+	background-color: gray;
+	color: #FFFFFF;
+	font-weight: bold;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: Georgia, Times New Roman, Verdana;
+}
+
+
+.header
+{
+   background-color:#050;
+   color:#FFFFFF;
+   //font-family:'trebuchet ms',helvetica,sans-serif;
+   //font-size:small;
+   font-weight:bold;
+   FONT-SIZE:8pt;
+   FONT-FAMILY: Georgia,Times New Roman,Verdana;
+}
+
+.headerLight
+{
+   background-color:#CCEECC;
+   color:#000000;
+   //font-family:'trebuchet ms',helvetica,sans-serif;
+   //font-size:small;
+   font-weight:bold;
+   FONT-SIZE:8pt;
+   FONT-FAMILY: Georgia,Times New Roman,Verdana;
+}
+
+
+.text_header{
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+
+.selectlayer {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial; ptwidth:1000px;
+}
+
+TR.lightVerde
+{
+     background-color:#cec;
+	  filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffffffff',EndColorStr='#D6EFD6');
+ 
+      }	
+}

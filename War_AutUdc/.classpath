@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+	<classpathentry kind="con" path="com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib_chci0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/onlyConnector"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUDA.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUDC.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUE1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUE4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUZ0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUZE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/YUZN.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ConnectorClient.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/javax.servlet-2.5.0.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

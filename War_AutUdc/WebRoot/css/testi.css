@@ -1,0 +1,223 @@
+.text_input_sensitive{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+}
+
+.text_label_UDC{
+	FONT-SIZE:12pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+}
+
+.text_input_UDC{
+	FONT-SIZE:12pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+}
+
+.text_input{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase
+}
+.text_input_bold{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+	FONT-WEIGHT: bold; 
+}
+.text_monitor{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase
+}
+.text_monitorRed{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+    COLOR: #FF0000;
+}
+.text_monitorGiallo{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+    COLOR: #FFCF00;
+}
+.text_monitorVerde{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+    COLOR: green;
+}
+.text_monitorRed{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+    COLOR: #FF0000;
+}
+
+.text_input_red{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+    COLOR: #FF0000;
+}
+
+.text_input_blue{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+	COLOR: #3333FF;
+}
+
+.text_inputI_blue{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+    COLOR: #3333FF;
+}
+
+.text_label{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+	text-align:: left
+}
+
+.text_green{
+	FONT-SIZE:8pt;
+	FONT-FAMILY: Verdana;
+    COLOR: green
+}
+.text_red{
+	FONT-SIZE:8pt;
+	FONT-FAMILY: Verdana;
+    COLOR: red
+}
+
+
+.text_elenco{
+	FONT-SIZE:8pt;
+	FONT-FAMILY: Verdana;
+	text-align:: center
+}
+
+.text_titolo1{
+	FONT-SIZE:18pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+}
+
+.text_titolo2{
+	FONT-SIZE:12pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+}
+
+.text_titolo3{
+	FONT-SIZE:10pt;
+	FONT-FAMILY: Verdana;
+}
+.text_titolo4{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+
+}
+
+.txt7 {
+    FONT-SIZE:7pt;
+    FONT-FAMILY: Verdana;
+}
+
+.txt20b{
+	FONT-SIZE:20pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold;
+}
+
+.txt20bred{
+	FONT-SIZE:20pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold;
+	COLOR: #FF0000;
+}
+
+
+.text_titcolonna{
+	FONT-SIZE:9pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+}
+
+.text_TD_Bold {
+	FONT-WEIGHT: bold; FONT-SIZE:9pt; FONT-FAMILY: Arial
+}
+
+.txt_Emerg{
+	FONT-FAMILY: Verdana;
+	FONT-SIZE:7pt;
+	FONT-WEIGHT: bold; 
+	color:red;
+}
+.txt_Emerg_Cert{
+	FONT-FAMILY: Verdana;
+	FONT-SIZE:7pt;
+	color:red;
+}
+.txt_Cert{
+	FONT-FAMILY: Verdana;
+	FONT-SIZE:7pt;
+	FONT-WEIGHT: bold;
+	color:#8000FF;
+}
+
+.err_mess{
+	FONT-SIZE:10pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold;
+	color: red;
+}
+
+td.checkOn {
+	background: url('/portalChci0/img/checkOn.jpeg') no-repeat top center;
+    width:20px;
+    heigth:20px;
+}
+td.checkOff {
+	background: url('/portalChci0/img/checkOff.jpeg') no-repeat top center;
+    width:20px;
+    heigth:20px;
+}
+
+table.tblBanche{
+	border-collapse:collapse;
+	border: 1px solid black;
+}
+
+table.tblBanche td{
+	FONT-SIZE:7pt;
+	FONT-FAMILY: Verdana;
+	TEXT-TRANSFORM: uppercase;
+}
+
+.buttonTable
+{
+    BACKGROUND-COLOR: #fce193;
+    COLOR: #6c000e;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7pt;
+    TEXT-TRANSFORM: uppercase
+}
+
+.text_NB_HIDDEN{
+	FONT-SIZE:12pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+	COLOR: red;
+	VISIBILITY: hidden;
+}
+
+.text_NB{
+	FONT-SIZE:12pt;
+	FONT-FAMILY: Verdana;
+	FONT-WEIGHT: bold; 
+	COLOR: red;
+}
