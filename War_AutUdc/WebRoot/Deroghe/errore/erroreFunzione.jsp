@@ -3,7 +3,7 @@
 <jsp:useBean id="erroreOutputBS" scope="session" class="autudc.chiamaBS.ErroreOutputBS" />
 
 <%
-	String err = "Errore generico durante la chiamata.";
+	String err = "Errore generico durante la chiamata ******";
 	if (erroreOutputBS != null && !"".equals(erroreOutputBS.getMessaggioErrore())){
 		err = erroreOutputBS.getMessaggioErrore();
 	}
