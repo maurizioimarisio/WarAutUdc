@@ -36,7 +36,7 @@ public class ChiamaYUDAS00 {
         	ex.printStackTrace();
             
         }
-        logger.debug(DBG_SEND_MSG + "Costruttore ChiamaYUDAS00");
+        logger.debug(DBG_SEND_MSG + "Costruttore - ChiamaYUDAS00");
         
         
     }
