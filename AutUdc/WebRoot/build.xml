@@ -1,0 +1,95 @@
+<project name="chci0" default="all">
+    <description>
+      Permette di compilare il Progetto WarAutUdc.
+    </description>
+  <!-- set global properties for this build -->
+  <property file="build.properties" />
+  
+  <path id="project.class.path">
+      <fileset dir="${path_lib}">
+        <include name="**/*.jar"/>
+     </fileset>
+      <fileset dir="${j2ee_libpath}">
+        <include name="weblogic.jar"/>
+      </fileset>
+      <fileset dir="${conn_libpath}">
+        <include name="connector.jar"/>
+     </fileset>
+     <fileset dir="${jdo_libpath}">
+        <include name="JDOClasses.jar"/>
+     </fileset> 
+
+     <fileset dir="${jdo_jarpath}">
+        <include name="**/*.jar"/>
+     </fileset>
+
+      <fileset dir="${classDir}">
+        <include name="**/*.class"/>
+     </fileset>
+     <fileset dir="${oracleDir}">
+	  <include name="**/*.*"/>
+     </fileset>
+
+     <fileset dir="${path_lib}">
+        <include name="persistence.jar"/>
+     </fileset>
+
+
+     <fileset dir="${path_lib}">  
+        <include name="acronimi.jar"/>
+     </fileset>
+
+
+</path>
+
+<target name="info" description="Info del progetto">
+  <echo>
+  Sistema Operativo... ${os.name}
+  Nome del progetto... ${ant.project.name}
+  </echo>
+</target>
+
+  <target name="init" description="crea le directory necessarie">
+     <delete dir="${classDir}"/>
+     <mkdir dir="${classDir}"/>
+  </target>
+
+
+<target name="compila" description="compila tutto">
+    <javac srcdir="${srcDir}" destdir="${classDir}"
+    			fork="yes"
+     			executable="${project_javahome}/bin/javac"
+     			compiler="${compiler}"
+     			target="${target}"
+     			source="1.6" >
+     			<include name="AutUdc/src/**/*.java"/>
+      <classpath refid="project.class.path"/>
+    </javac>
+
+    <copy todir="${path_jsp_destdircopy}" overwrite="true">
+        <fileset dir="${path_jsp_srcdircopy}"/>  
+    </copy>
+
+   <copy todir="${path_webxml_destdircopy}" overwrite="true">
+        <fileset dir="${path_webxml_srcdircopy}"/>
+    </copy>
+
+</target>
+
+
+<target name="about" >
+<echo>
+Permette compilare il Progetto CHCI0
+Comandi disponibili:
+
+about                 Questo messaggio
+init                  Crea le directory necessarie
+compila               Compila tutti i sorgenti java (se necessario)
+all                   Esegue nell'ordine i comandi init e compila
+</echo>
+</target>
+
+<target name="all" depends="init,compila">
+</target>
+
+</project>
